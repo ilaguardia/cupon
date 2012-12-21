@@ -20,6 +20,8 @@ class AppKernel extends Kernel
             new Cupon\OfertaBundle\OfertaBundle(),
             new Cupon\TiendaBundle\TiendaBundle(),
             new Cupon\UsuarioBundle\UsuarioBundle(),
+            new Cupon\CiudadBundle\CiudadBundle(),
+            new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
