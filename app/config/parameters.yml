@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: cupon
+    database_user: cupon
+    database_password: cupon
+    mailer_transport: smtp
+    mailer_host: localhost
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 7842d8393cb525424497c08736e01629c93679e4
+    database_path: null
